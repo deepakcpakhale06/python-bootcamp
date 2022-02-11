@@ -27,10 +27,22 @@ for num in num_list:
 for c in "aeroplane":
     print(c)
 
-# Find favorite animal
-my_fav_animal = "tiger"
-animal_list = ["elephant", "lion", "duck", "tiger"]
+# Find favorite animal, use of else in for loop
+my_fav_animal = "Penguin"
+animal_list = ["Elephant", "Lion", "Duck", "Tiger"]
 for animal in animal_list:
     if animal == my_fav_animal:
         print(f'Found favorite animal {animal}')
         break
+else:
+    print("My favorite animal is not in the list :(")
+
+print("================================")
+for i in range(10):
+    print(i)
+
+for j in range(20, 25):
+    print(j)
+
+
+
